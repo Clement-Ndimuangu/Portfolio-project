@@ -1,0 +1,52 @@
+html{
+    background-color: black;
+    color: white;
+    margin-top: 1rem;
+}
+#mail{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+#mail-logo{
+    width: 2rem;
+    border-radius: 50%;
+}
+nav{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.bio{
+    display: flex;
+    gap: 2rem;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.author{
+    border-radius: 2rem;
+}
+.bio_heading{
+    display: flex;
+    justify-content: center;
+}
+p{
+    line-height: 1.5rem;
+}
+
+.social{
+    gap: 2rem;
+}
